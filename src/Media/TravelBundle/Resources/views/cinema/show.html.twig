@@ -1,9 +1,10 @@
-{% extends '::base.html.twig' %}
+{% extends 'MediaTravelBundle::layout.html.twig' %}
 
 {% block body %}
+    <div class="row">
     <h1>Cinema</h1>
 
-    <table>
+    <table class="table">
         <tbody>
             <tr>
                 <th>Id</th>
@@ -37,4 +38,5 @@
             {{ form_end(delete_form) }}
         </li>
     </ul>
+    </div>
 {% endblock %}
