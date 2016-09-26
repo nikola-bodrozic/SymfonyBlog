@@ -1,0 +1,4 @@
+services:
+#    media_travel.example:
+#        class: Media\TravelBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

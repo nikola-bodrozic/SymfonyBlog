@@ -1,0 +1,24 @@
+cinema_index:
+    path:     /
+    defaults: { _controller: "MediaTravelBundle:Cinema:index" }
+    methods:  GET
+
+cinema_show:
+    path:     /{id}/show
+    defaults: { _controller: "MediaTravelBundle:Cinema:show" }
+    methods:  GET
+
+cinema_new:
+    path:     /new
+    defaults: { _controller: "MediaTravelBundle:Cinema:new" }
+    methods:  [GET, POST]
+
+cinema_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "MediaTravelBundle:Cinema:edit" }
+    methods:  [GET, POST]
+
+cinema_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "MediaTravelBundle:Cinema:delete" }
+    methods:  DELETE

@@ -1,0 +1,7 @@
+media_travel:
+    resource: "@MediaTravelBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

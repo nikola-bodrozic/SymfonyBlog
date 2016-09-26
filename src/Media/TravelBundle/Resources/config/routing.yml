@@ -1,0 +1,3 @@
+media_travel_cinema:
+    resource: "@MediaTravelBundle/Resources/config/routing/cinema.yml"
+    prefix:   /cinema
